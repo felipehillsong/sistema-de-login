@@ -4,7 +4,7 @@ if(isset($_POST['email']) && empty($_POST['email']) == false){
     $email = addslashes($_POST['email']);
     $senha = addslashes($_POST['senha']);
 
-    $dsn = "mysql:dbname=felipe_2;host=localhost";
+    $dsn = "mysql:dbname=veiculo;host=localhost";
     $dbuser= "root";
     $dbpass = "";
 
